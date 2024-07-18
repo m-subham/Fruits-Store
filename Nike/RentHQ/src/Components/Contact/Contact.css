@@ -1,0 +1,24 @@
+.bg3{
+    background-image: url('../../assets/Contact.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    width: 100%;
+}
+.texts{
+    justify-items: left;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bg3 h1{
+    font-size: 64px;
+}
+.bg3 p{
+    font-size: 22px;
+}
+.bg3 h3{
+    font-size: 24px;
+}

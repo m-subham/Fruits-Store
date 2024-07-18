@@ -1,0 +1,27 @@
+.bg {
+    background-image: url('../../assets/Rent-home.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    color: white;
+    height: 100vh;
+    width: 100%;
+  }
+  .content {
+    color: white;
+    padding-left: 80px;
+    max-width: 800px;
+    text-align: left;
+  }
+  .content h3{  
+    font-size: 32px;
+    position: absolute;
+    top: 30px;
+  }
+  
+  .content h2{
+    margin: 0;
+    font-size: 72px;
+  }

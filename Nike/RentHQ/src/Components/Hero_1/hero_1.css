@@ -1,0 +1,15 @@
+.overview{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 100px;
+    color: #4B4B4B;
+}
+.overview h1{
+    font-size: 80px;
+}
+.overview p{
+    font-size: 24px;
+    max-width: 40%;
+}

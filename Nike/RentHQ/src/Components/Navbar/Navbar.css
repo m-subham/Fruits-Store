@@ -1,0 +1,45 @@
+/* src/Navbar.css */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .nav-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu li {
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .nav-menu li:hover {
+    color: #ffa500;
+  }
+  
+  .nav-contact {
+    background-color: #ffa500;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-contact:hover {
+    background-color: white;
+    color: #333;
+  }
+  
